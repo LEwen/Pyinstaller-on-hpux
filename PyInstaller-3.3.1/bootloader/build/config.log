@@ -1,0 +1,312 @@
+# project PyInstallerBootloader (nodist) configured on Tue Aug 28 16:34:25 2018 by
+# waf 1.9.13 (abi 99, python 2070ff0 on hp-ux11)
+# using ./waf configure all
+#
+----------------------------------------
+Setting top to
+/tmp/python/PyInstaller-3.3.1/bootloader
+----------------------------------------
+Setting out to
+/tmp/python/PyInstaller-3.3.1/bootloader/build
+----------------------------------------
+Checking for 'clang' (C compiler)
+find program=['clang'] paths=['/usr/sbin', '/usr/bin', '/usr/ccs/bin', '/usr/contrib/bin', '/usr/contrib/Q4/bin', '/opt/perl/bin', '/opt/gvsd/bin', '/opt/ipf/bin', '/opt/nettladm/bin', '/opt/fcms/bin', '/opt/wbem/bin', '/opt/wbem/sbin', '/opt/sas/bin', '/opt/wli/bin', '/opt/graphics/common/bin', '/opt/hpvm/bin', '/opt/atok/bin', '/usr/bin/X11', '/usr/contrib/bin/X11', '/opt/sec_mgmt/bastille/bin', '/opt/caliper/bin', '/opt/drd/bin', '/opt/dsau/bin', '/opt/dsau/sbin', '/opt/resmon/bin', '/opt/firefox', '/opt/perf/bin', '/usr/contrib/kwdb/bin', '/etc/cmcluster/scripts/tkit/vtn', '/opt/perl_32/bin', '/opt/perl_64/bin', '/opt/prm/bin', '/opt/propplus/bin', '/opt/sfm/bin', '/opt/swm/bin', '/opt/sec_mgmt/spc/bin', '/opt/ssh/bin', '/opt/swa/bin', '/opt/hpsmh/bin', '/opt/thunderbird', '/opt/langtools/bin', '/opt/gwlm/bin', '/opt/aCC/bin', '/opt/cadvise/bin', '/opt/sentinel/bin', '/opt/ignite/bin', '/sbin', '/home/root', '/usr/local/bin', '/usr/local/bin'] var='CC' -> None
+from /tmp/python/PyInstaller-3.3.1/bootloader: Could not find the program ['clang']
+not found
+----------------------------------------
+Checking for 'gcc' (C compiler)
+find program=['gcc', 'cc'] paths=['/usr/sbin', '/usr/bin', '/usr/ccs/bin', '/usr/contrib/bin', '/usr/contrib/Q4/bin', '/opt/perl/bin', '/opt/gvsd/bin', '/opt/ipf/bin', '/opt/nettladm/bin', '/opt/fcms/bin', '/opt/wbem/bin', '/opt/wbem/sbin', '/opt/sas/bin', '/opt/wli/bin', '/opt/graphics/common/bin', '/opt/hpvm/bin', '/opt/atok/bin', '/usr/bin/X11', '/usr/contrib/bin/X11', '/opt/sec_mgmt/bastille/bin', '/opt/caliper/bin', '/opt/drd/bin', '/opt/dsau/bin', '/opt/dsau/sbin', '/opt/resmon/bin', '/opt/firefox', '/opt/perf/bin', '/usr/contrib/kwdb/bin', '/etc/cmcluster/scripts/tkit/vtn', '/opt/perl_32/bin', '/opt/perl_64/bin', '/opt/prm/bin', '/opt/propplus/bin', '/opt/sfm/bin', '/opt/swm/bin', '/opt/sec_mgmt/spc/bin', '/opt/ssh/bin', '/opt/swa/bin', '/opt/hpsmh/bin', '/opt/thunderbird', '/opt/langtools/bin', '/opt/gwlm/bin', '/opt/aCC/bin', '/opt/cadvise/bin', '/opt/sentinel/bin', '/opt/ignite/bin', '/sbin', '/home/root', '/usr/local/bin', '/usr/local/bin'] var='CC' -> ['/usr/local/bin/gcc']
+['/usr/local/bin/gcc', '-dM', '-E', '-']
+out: #define __DBL_MIN_EXP__ (-1021)
+#define __FLT_MIN__ 1.17549435e-38F
+#define __DEC64_DEN__ 0.000000000000001E-383DD
+#define __CHAR_BIT__ 8
+#define __WCHAR_MAX__ 4294967295U
+#define __DBL_DENORM_MIN__ 4.9406564584124654e-324
+#define __FLT_EVAL_METHOD__ 0
+#define __ia64 1
+#define __DBL_MIN_10_EXP__ (-307)
+#define __FINITE_MATH_ONLY__ 0
+#define __GNUC_PATCHLEVEL__ 3
+#define __hpux 1
+#define __DEC64_MAX_EXP__ 384
+#define __SHRT_MAX__ 32767
+#define __LDBL_MAX__ 1.18973149535723176508575932662800702e+4932L
+#define __UINTMAX_TYPE__ long long unsigned int
+#define __DEC32_EPSILON__ 1E-6DF
+#define __unix 1
+#define __LDBL_MAX_EXP__ 16384
+#define __SCHAR_MAX__ 127
+#define __USER_LABEL_PREFIX__ 
+#define __STDC_HOSTED__ 1
+#define __LDBL_HAS_INFINITY__ 1
+#define __DEC64_MIN_EXP__ (-383)
+#define __DBL_DIG__ 15
+#define __FLT_EPSILON__ 1.19209290e-7F
+#define __LDBL_MIN__ 3.36210314311209350626267781732175260e-4932L
+#define __DEC32_MAX__ 9.999999E96DF
+#define __unix__ 1
+#define __IA64__ 1
+#define __DECIMAL_DIG__ 36
+#define __ia64__ 1
+#define __LDBL_HAS_QUIET_NAN__ 1
+#define __GNUC__ 4
+#define __FLT_HAS_DENORM__ 1
+#define __DBL_MAX__ 1.7976931348623157e+308
+#define __DBL_HAS_INFINITY__ 1
+#define __DEC32_MIN_EXP__ (-95)
+#define __LDBL_HAS_DENORM__ 1
+#define __DEC128_MAX__ 9.999999999999999999999999999999999E6144DL
+#define __DEC32_MIN__ 1E-95DF
+#define __DBL_MAX_EXP__ 1024
+#define __DEC128_EPSILON__ 1E-33DL
+#define __LONG_LONG_MAX__ 9223372036854775807LL
+#define __GXX_ABI_VERSION 1002
+#define __FLT_MIN_EXP__ (-125)
+#define __DBL_MIN__ 2.2250738585072014e-308
+#define _INCLUDE_LONGLONG 1
+#define __DBL_HAS_QUIET_NAN__ 1
+#define __DEC128_MIN__ 1E-6143DL
+#define __REGISTER_PREFIX__ 
+#define __DBL_HAS_DENORM__ 1
+#define __STDCPP__ 1
+#define __NO_INLINE__ 1
+#define __DEC_EVAL_METHOD__ 2
+#define __FLT_MANT_DIG__ 24
+#define __VERSION__ "4.2.3"
+#define __BIG_ENDIAN__ 1
+#define _UINT128_T 1
+#define hpux 1
+#define __DEC64_EPSILON__ 1E-15DD
+#define __DEC128_MIN_EXP__ (-6143)
+#define _INCLUDE__STDC_A1_SOURCE 1
+#define unix 1
+#define __SIZE_TYPE__ long unsigned int
+#define __DEC32_DEN__ 0.000001E-95DF
+#define __ELF__ 1
+#define __FLT_RADIX__ 2
+#define __LDBL_EPSILON__ 1.92592994438723585305597794258492732e-34L
+#define __LDBL_DIG__ 33
+#define __FLT_HAS_QUIET_NAN__ 1
+#define __FLT_MAX_10_EXP__ 38
+#define __LONG_MAX__ 2147483647L
+#define __FLT_HAS_INFINITY__ 1
+#define _ILP32 1
+#define __DEC64_MAX__ 9.999999999999999E384DD
+#define __DEC64_MANT_DIG__ 16
+#define __DEC32_MAX_EXP__ 96
+#define __DEC128_DEN__ 0.000000000000000000000000000000001E-6143DL
+#define __LDBL_MANT_DIG__ 113
+#define __itanium__ 1
+#define _LONGLONG 1
+#define __WCHAR_TYPE__ unsigned int
+#define __FLT_DIG__ 6
+#define __INT_MAX__ 2147483647
+#define __FLT_MAX_EXP__ 128
+#define __DBL_MANT_DIG__ 53
+#define __DEC64_MIN__ 1E-383DD
+#define __WINT_TYPE__ unsigned int
+#define __LDBL_MIN_EXP__ (-16381)
+#define __STDC_EXT__ 1
+#define __LDBL_MAX_10_EXP__ 4932
+#define __DBL_EPSILON__ 2.2204460492503131e-16
+#define __INTMAX_MAX__ 9223372036854775807LL
+#define __FLT_DENORM_MIN__ 1.40129846e-45F
+#define __FLT_MAX__ 3.40282347e+38F
+#define __FLT_MIN_10_EXP__ (-37)
+#define __INTMAX_TYPE__ long long int
+#define __DEC128_MAX_EXP__ 6144
+#define __GNUC_MINOR__ 2
+#define __DEC32_MANT_DIG__ 7
+#define __DBL_MAX_10_EXP__ 308
+#define __LDBL_DENORM_MIN__ 6.47517511943802511092443895822764655e-4966L
+#define __STDC__ 1
+#define __PTRDIFF_TYPE__ long int
+#define __hpux__ 1
+#define __DEC128_MANT_DIG__ 34
+#define __LDBL_MIN_10_EXP__ (-4931)
+#define __GNUC_GNU_INLINE__ 1
+#define _HPUX_SOURCE 1
+
+find program=['ar'] paths=['/usr/sbin', '/usr/bin', '/usr/ccs/bin', '/usr/contrib/bin', '/usr/contrib/Q4/bin', '/opt/perl/bin', '/opt/gvsd/bin', '/opt/ipf/bin', '/opt/nettladm/bin', '/opt/fcms/bin', '/opt/wbem/bin', '/opt/wbem/sbin', '/opt/sas/bin', '/opt/wli/bin', '/opt/graphics/common/bin', '/opt/hpvm/bin', '/opt/atok/bin', '/usr/bin/X11', '/usr/contrib/bin/X11', '/opt/sec_mgmt/bastille/bin', '/opt/caliper/bin', '/opt/drd/bin', '/opt/dsau/bin', '/opt/dsau/sbin', '/opt/resmon/bin', '/opt/firefox', '/opt/perf/bin', '/usr/contrib/kwdb/bin', '/etc/cmcluster/scripts/tkit/vtn', '/opt/perl_32/bin', '/opt/perl_64/bin', '/opt/prm/bin', '/opt/propplus/bin', '/opt/sfm/bin', '/opt/swm/bin', '/opt/sec_mgmt/spc/bin', '/opt/ssh/bin', '/opt/swa/bin', '/opt/hpsmh/bin', '/opt/thunderbird', '/opt/langtools/bin', '/opt/gwlm/bin', '/opt/aCC/bin', '/opt/cadvise/bin', '/opt/sentinel/bin', '/opt/ignite/bin', '/sbin', '/home/root', '/usr/local/bin', '/usr/local/bin'] var='AR' -> ['/usr/bin/ar']
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_02e3ae6e5b1f8ff8d8dc48ab0c3be2a6/test.c[0m
+
+['/usr/local/bin/gcc', '-fPIC', '-DPIC', '../test.c', '-c', '-o/tmp/python/PyInstaller-3.3.1/bootloader/build/.conf_check_02e3ae6e5b1f8ff8d8dc48ab0c3be2a6/testbuild/test.c.1.o']
+[2/2] Linking [33mbuild/.conf_check_02e3ae6e5b1f8ff8d8dc48ab0c3be2a6/testbuild/libtestprog.sl[0m
+
+['/usr/local/bin/gcc', '-shared', 'test.c.1.o', '-o', '/tmp/python/PyInstaller-3.3.1/bootloader/build/.conf_check_02e3ae6e5b1f8ff8d8dc48ab0c3be2a6/testbuild/libtestprog.sl']
+/usr/local/bin/gcc
+----------------------------------------
+Checking size of pointer
+==>
+
+        int main() {
+            static int test_array[1 - 2 * !(sizeof(void *) == 4)];
+            test_array[0] = 0;
+            return 0;
+        }
+<==
+[1/2] Compiling [32mbuild/.conf_check_a96a8d1c9e16bed6598d01ec02a62d8d/test.c[0m
+
+['/usr/local/bin/gcc', '../test.c', '-c', '-o/tmp/python/PyInstaller-3.3.1/bootloader/build/.conf_check_a96a8d1c9e16bed6598d01ec02a62d8d/testbuild/test.c.1.o']
+err: ../test.c:6:10: warning: no newline at end of file
+
+[2/2] Linking [33mbuild/.conf_check_a96a8d1c9e16bed6598d01ec02a62d8d/testbuild/testprog[0m
+
+['/usr/local/bin/gcc', 'test.c.1.o', '-o', '/tmp/python/PyInstaller-3.3.1/bootloader/build/.conf_check_a96a8d1c9e16bed6598d01ec02a62d8d/testbuild/testprog']
+4
+----------------------------------------
+Platform
+HP-UX-32bit detected based on compiler
+----------------------------------------
+Checking for flags -milp32
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_3a23a11a4252b467936be59252fa608c/test.c[0m
+
+['/usr/local/bin/gcc', '../test.c', '-c', '-o/tmp/python/PyInstaller-3.3.1/bootloader/build/.conf_check_3a23a11a4252b467936be59252fa608c/testbuild/test.c.1.o']
+[2/2] Linking [33mbuild/.conf_check_3a23a11a4252b467936be59252fa608c/testbuild/testprog[0m
+
+['/usr/local/bin/gcc', 'test.c.1.o', '-o', '/tmp/python/PyInstaller-3.3.1/bootloader/build/.conf_check_3a23a11a4252b467936be59252fa608c/testbuild/testprog']
+yes
+-------------------------------------------
+Checking for program '/usr/local/bin/strip'
+/usr/local/bin/strip
+find program=['/usr/local/bin/strip'] paths=['/usr/sbin', '/usr/bin', '/usr/ccs/bin', '/usr/contrib/bin', '/usr/contrib/Q4/bin', '/opt/perl/bin', '/opt/gvsd/bin', '/opt/ipf/bin', '/opt/nettladm/bin', '/opt/fcms/bin', '/opt/wbem/bin', '/opt/wbem/sbin', '/opt/sas/bin', '/opt/wli/bin', '/opt/graphics/common/bin', '/opt/hpvm/bin', '/opt/atok/bin', '/usr/bin/X11', '/usr/contrib/bin/X11', '/opt/sec_mgmt/bastille/bin', '/opt/caliper/bin', '/opt/drd/bin', '/opt/dsau/bin', '/opt/dsau/sbin', '/opt/resmon/bin', '/opt/firefox', '/opt/perf/bin', '/usr/contrib/kwdb/bin', '/etc/cmcluster/scripts/tkit/vtn', '/opt/perl_32/bin', '/opt/perl_64/bin', '/opt/prm/bin', '/opt/propplus/bin', '/opt/sfm/bin', '/opt/swm/bin', '/opt/sec_mgmt/spc/bin', '/opt/ssh/bin', '/opt/swa/bin', '/opt/hpsmh/bin', '/opt/thunderbird', '/opt/langtools/bin', '/opt/gwlm/bin', '/opt/aCC/bin', '/opt/cadvise/bin', '/opt/sentinel/bin', '/opt/ignite/bin', '/sbin', '/home/root', '/usr/local/bin', '/usr/local/bin'] var='STRIP' -> ['/usr/local/bin/strip']
+-------------------------------------------
+Checking for program 'strip'
+/usr/local/bin/strip
+find program=['strip'] paths=['/usr/sbin', '/usr/bin', '/usr/ccs/bin', '/usr/contrib/bin', '/usr/contrib/Q4/bin', '/opt/perl/bin', '/opt/gvsd/bin', '/opt/ipf/bin', '/opt/nettladm/bin', '/opt/fcms/bin', '/opt/wbem/bin', '/opt/wbem/sbin', '/opt/sas/bin', '/opt/wli/bin', '/opt/graphics/common/bin', '/opt/hpvm/bin', '/opt/atok/bin', '/usr/bin/X11', '/usr/contrib/bin/X11', '/opt/sec_mgmt/bastille/bin', '/opt/caliper/bin', '/opt/drd/bin', '/opt/dsau/bin', '/opt/dsau/sbin', '/opt/resmon/bin', '/opt/firefox', '/opt/perf/bin', '/usr/contrib/kwdb/bin', '/etc/cmcluster/scripts/tkit/vtn', '/opt/perl_32/bin', '/opt/perl_64/bin', '/opt/prm/bin', '/opt/propplus/bin', '/opt/sfm/bin', '/opt/swm/bin', '/opt/sec_mgmt/spc/bin', '/opt/ssh/bin', '/opt/swa/bin', '/opt/hpsmh/bin', '/opt/thunderbird', '/opt/langtools/bin', '/opt/gwlm/bin', '/opt/aCC/bin', '/opt/cadvise/bin', '/opt/sentinel/bin', '/opt/ignite/bin', '/sbin', '/home/root', '/usr/local/bin', '/usr/local/bin'] var='STRIP' -> ['/usr/local/bin/strip']
+-------------------------------------------
+Checking for library dl
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_3eb7ab31a23a65158354adcde8bc3477/test.c[0m
+
+['/usr/local/bin/gcc', '-milp32', '-O2', '-Wdeclaration-after-statement', '-Wimplicit-function-declaration', '-Werror', '-D_REENTRANT', '-D_BSD_SOURCE', '-DHPUX', '../test.c', '-c', '-o/tmp/python/PyInstaller-3.3.1/bootloader/build/.conf_check_3eb7ab31a23a65158354adcde8bc3477/testbuild/test.c.1.o']
+[2/2] Linking [33mbuild/.conf_check_3eb7ab31a23a65158354adcde8bc3477/testbuild/testprog[0m
+
+['/usr/local/bin/gcc', '-milp32', 'test.c.1.o', '-o', '/tmp/python/PyInstaller-3.3.1/bootloader/build/.conf_check_3eb7ab31a23a65158354adcde8bc3477/testbuild/testprog', '-L/usr/local/lib/hpux32', '-ldl']
+yes
+-------------------------------------------
+Checking for library pthread
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_55b262788dcecc8e6670aff453143c96/test.c[0m
+
+['/usr/local/bin/gcc', '-milp32', '-O2', '-Wdeclaration-after-statement', '-Wimplicit-function-declaration', '-Werror', '-D_REENTRANT', '-D_BSD_SOURCE', '-DHPUX', '../test.c', '-c', '-o/tmp/python/PyInstaller-3.3.1/bootloader/build/.conf_check_55b262788dcecc8e6670aff453143c96/testbuild/test.c.1.o']
+[2/2] Linking [33mbuild/.conf_check_55b262788dcecc8e6670aff453143c96/testbuild/testprog[0m
+
+['/usr/local/bin/gcc', '-milp32', 'test.c.1.o', '-o', '/tmp/python/PyInstaller-3.3.1/bootloader/build/.conf_check_55b262788dcecc8e6670aff453143c96/testbuild/testprog', '-L/usr/local/lib/hpux32', '-lpthread']
+yes
+-------------------------------------------
+Checking for library m
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_aa07385d4b7269865b5f2f6d8ca6d025/test.c[0m
+
+['/usr/local/bin/gcc', '-milp32', '-O2', '-Wdeclaration-after-statement', '-Wimplicit-function-declaration', '-Werror', '-D_REENTRANT', '-D_BSD_SOURCE', '-DHPUX', '../test.c', '-c', '-o/tmp/python/PyInstaller-3.3.1/bootloader/build/.conf_check_aa07385d4b7269865b5f2f6d8ca6d025/testbuild/test.c.1.o']
+[2/2] Linking [33mbuild/.conf_check_aa07385d4b7269865b5f2f6d8ca6d025/testbuild/testprog[0m
+
+['/usr/local/bin/gcc', '-milp32', 'test.c.1.o', '-o', '/tmp/python/PyInstaller-3.3.1/bootloader/build/.conf_check_aa07385d4b7269865b5f2f6d8ca6d025/testbuild/testprog', '-L/usr/local/lib/hpux32', '-lm']
+yes
+-------------------------------------------
+Checking for library z
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_37819e5878236be8d21b2f826d5f571e/test.c[0m
+
+['/usr/local/bin/gcc', '-milp32', '-O2', '-Wdeclaration-after-statement', '-Wimplicit-function-declaration', '-Werror', '-D_REENTRANT', '-D_BSD_SOURCE', '-DHPUX', '../test.c', '-c', '-o/tmp/python/PyInstaller-3.3.1/bootloader/build/.conf_check_37819e5878236be8d21b2f826d5f571e/testbuild/test.c.1.o']
+[2/2] Linking [33mbuild/.conf_check_37819e5878236be8d21b2f826d5f571e/testbuild/testprog[0m
+
+['/usr/local/bin/gcc', '-milp32', 'test.c.1.o', '-o', '/tmp/python/PyInstaller-3.3.1/bootloader/build/.conf_check_37819e5878236be8d21b2f826d5f571e/testbuild/testprog', '-L/usr/local/lib/hpux32', '-lz']
+yes
+-------------------------------------------
+Checking for function unsetenv
+==>
+#include <stdlib.h>
+
+int main(int argc, char **argv) {
+	void (*p)();
+	(void)argc; (void)argv;
+	p=(void(*)())(unsetenv);
+	return !p;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_444e15b82d5c34d56002256642296cff/test.c[0m
+
+['/usr/local/bin/gcc', '-milp32', '-O2', '-Wdeclaration-after-statement', '-Wimplicit-function-declaration', '-Werror', '-D_REENTRANT', '-D_BSD_SOURCE', '-DHPUX', '../test.c', '-c', '-o/tmp/python/PyInstaller-3.3.1/bootloader/build/.conf_check_444e15b82d5c34d56002256642296cff/testbuild/test.c.1.o']
+[2/2] Linking [33mbuild/.conf_check_444e15b82d5c34d56002256642296cff/testbuild/testprog[0m
+
+['/usr/local/bin/gcc', '-milp32', 'test.c.1.o', '-o', '/tmp/python/PyInstaller-3.3.1/bootloader/build/.conf_check_444e15b82d5c34d56002256642296cff/testbuild/testprog', '-L/usr/local/lib/hpux32']
+yes
+-------------------------------------------
+Checking for function mkdtemp
+==>
+#include <stdlib.h>
+
+int main(int argc, char **argv) {
+	void (*p)();
+	(void)argc; (void)argv;
+	p=(void(*)())(mkdtemp);
+	return !p;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_159d0f5157f6f07759b81dfcdbaf3fc2/test.c[0m
+
+['/usr/local/bin/gcc', '-milp32', '-O2', '-Wdeclaration-after-statement', '-Wimplicit-function-declaration', '-Werror', '-D_REENTRANT', '-D_BSD_SOURCE', '-DHPUX', '-DHAVE_UNSETENV=1', '../test.c', '-c', '-o/tmp/python/PyInstaller-3.3.1/bootloader/build/.conf_check_159d0f5157f6f07759b81dfcdbaf3fc2/testbuild/test.c.1.o']
+err: ../test.c: In function 'main':
+../test.c:6: error: 'mkdtemp' undeclared (first use in this function)
+../test.c:6: error: (Each undeclared identifier is reported only once
+../test.c:6: error: for each function it appears in.)
+
+from /tmp/python/PyInstaller-3.3.1/bootloader: Test does not build: Traceback (most recent call last):
+  File "/tmp/python/PyInstaller-3.3.1/bootloader/.waf-1.9.13-c4df071cf489d17f72b886deab7c5999/waflib/Configure.py", line 327, in run_build
+    bld.compile()
+  File "/tmp/python/PyInstaller-3.3.1/bootloader/.waf-1.9.13-c4df071cf489d17f72b886deab7c5999/waflib/Build.py", line 186, in compile
+    raise Errors.BuildError(self.producer.error)
+BuildError: Build failed
+ -> task in 'testprog' failed with exit status 1 (run with -v to display more information)
+
+not found
+from /tmp/python/PyInstaller-3.3.1/bootloader: The configuration failed
